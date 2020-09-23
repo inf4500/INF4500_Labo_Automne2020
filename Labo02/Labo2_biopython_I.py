@@ -16,4 +16,4 @@ def loadFromGenbank(noAccession):
 #= ligne de commande
 if len(sys.argv) == 2:
     loadFromGenbank(sys.argv[1]) # Attention, ici on passe le numéro d'accession via la console en appelant le programme.
-                                 # Vous pouvez essayer avec le numéro d'accession 'AB123456'. Ex. python AB123456
+                                 # Vous pouvez essayer avec le numéro d'accession 'AB123456'. Ex. python Labo2_biopython_I.py AB123456
